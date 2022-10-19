@@ -56,3 +56,21 @@ app.post('/api/notes', (req, res) => {
       res.error('Error in adding note');
     }
 });
+
+app.delete("/api/notes/:id", function(req, res) {
+    console.log("params", req.params.id)
+    fs.readFile('./db/db.json', 'utf-8',(err,data)=>{
+      if(err){
+        console.error(err)
+      }else{
+        let parsedData = JSON.parse(data)
+        parsedData = parsedData.filter(({ id }) => id !== req.params.id);
+        fs.writeFile('./db/db.json', JSON.stringify(parsedData, null, 4), (err) =>
+        err ? console.error(err) : res.json('writeFile'))
+      }
+    })
+  });
+  
+  app.get('*', (req, res) =>
+    res.sendFile(path.join(__dirname, '/public/index.html'))
+  );
