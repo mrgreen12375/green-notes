@@ -1,1 +1,12 @@
-[]
+[
+    {
+        "title": "Sample",
+        "text": "This is a sample note",
+        "id": "6fab9851-8a4c-41f1-9d81-513737b82328"
+    },
+    {
+        "title": "Mock-up",
+        "text": "This is a sample note for the mock-up",
+        "id": "60c2abf4-e7f9-42b0-8bb0-83fb41adedc7"
+    }
+]
