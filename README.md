@@ -11,8 +11,8 @@ This project is to create a note taking application that you can write and save 
 - [Questions](#Questions)
 - [Diployment Links](#Questions)
 ## Mock-up
-![alt green-notes website](./src/gr)
-![alt green-notes website](./src/green-team-mockup.png)
+![alt green-notes website](./images/get-started-mockup.png)
+![alt green-notes website](./images/note-taker-mockup.png)
 ## Installation
 npm install
 
