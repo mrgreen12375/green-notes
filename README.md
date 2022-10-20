@@ -30,6 +30,6 @@ GitHub Username: [mrgreen12375](https://github.com/mrgreen12375)
 
 Email Address: [ste2144105@gmail.com](ste2144105@gmail.com)
 ## Deployment Links
-Heroku: 
+Heroku: https://green-note.herokuapp.com/notes
 
 GitHub Repo: https://github.com/mrgreen12375/green-notes
