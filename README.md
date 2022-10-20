@@ -12,6 +12,7 @@ This project is to create a note taking application that you can write and save 
 - [Diployment Links](#Questions)
 ## Mock-up
 ![alt green-notes website](./images/get-started-mockup.png)
+
 ![alt green-notes website](./images/note-taker-mockup.png)
 ## Installation
 npm install
@@ -30,6 +31,6 @@ GitHub Username: [mrgreen12375](https://github.com/mrgreen12375)
 
 Email Address: [ste2144105@gmail.com](ste2144105@gmail.com)
 ## Deployment Links
-Heroku: https://green-note.herokuapp.com/notes
+Heroku: https://green-note.herokuapp.com
 
 GitHub Repo: https://github.com/mrgreen12375/green-notes
